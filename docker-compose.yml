@@ -1,6 +1,6 @@
 version: "3"
 services:
   web:
-    image: nginxdemos/hello
+    image: oscarzhou/nginx-hello:1
     ports:
       - "5566:80"
