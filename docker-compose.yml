@@ -3,4 +3,4 @@ services:
   web:
     image: oscarzhou/nginx-hello:1
     ports:
-      - "5566:80"
+      - "${PORT:-5566}:80"
